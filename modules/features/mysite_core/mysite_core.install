@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Install, uninstall and update function for MySite core module.
+ */
+
+ /**
+  * Flush all caches and revert all features.
+  */
+  function mysite_core_update_7100() {
+  	drupal_flush_all_caches();
+  	features_revert();
+  }
