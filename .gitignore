@@ -4,3 +4,4 @@ modules/*
 themes/*
 !themes/custom
 .DS_Store
+!modules/features
