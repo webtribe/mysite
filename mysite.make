@@ -29,3 +29,9 @@ projects[coffee][subdir] = contrib
 
 projects[module_filter][type] = module
 projects[module_filter][subdir] = contrib
+
+projects[context][type] = module
+projects[context][subdir] = contrib
+
+projects[ds][type] = module
+projects[ds][subdir] = contrib
